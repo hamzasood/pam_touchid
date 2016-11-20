@@ -22,7 +22,7 @@ If you're only 999,999% sure, then turn back now.
 1. Open up`/etc/pam.d/sudo` in your favourite text editor
 2. Add `auth sufficient pam_touchid.so reason="execute a command as another user"` to the top of the file
 
-The process is pretty much the same for any other process, but you'd edit a different config file and probebly change the reason too.
+The procedure is pretty much the same for any other process, but you'd edit a different config file and probably change the reason too.
 
 # If you get locked out of sudo
 1. Feel bad that you lied about being 1,000,000% sure what you're doing
